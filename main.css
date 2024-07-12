@@ -1,0 +1,81 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+.imagem-loja img {
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+}
+
+.texto-loja {
+    flex: 1;
+    padding: 1rem;
+}
+
+#sobre-a-loja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#produtos {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.container-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produto {
+    flex: 1 1 21%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    max-width: 23%;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+    #sobre-a-loja {
+        flex-direction: column;
+        text-align: center;
+    }
